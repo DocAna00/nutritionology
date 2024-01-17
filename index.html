@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Academy of Nutritionology</title>
+    <link rel="preload" href="fonts/HeliosC.woff2" as="font" crossorigin>
+    <link rel="preload" href="fonts/HeliosC-Bold.woff2" as="font" crossorigin>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/burger.js"></script>
+    <script defer src="js/timer.js"></script>
+    <link href="img/favicon.svg" rel="icon" type="image/svg+xml">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__content-top">
+                <a href="#" class="header__logo">
+                    <img class="header__image" src="img/logo.svg" alt="NAN logo" width="160" height="60">
+                </a>
+                <button class="header__burger hamburger hamburger--collapse js-burger" type="button">
+                    <span class="hamburger__box">
+                        <span class="hamburger__inner"></span>
+                    </span>
+                </button>
+                <button class="header__button reset-btn button" type="button">Бесплатная регистрация</button>
+            </div>
+            <div class="header__content-bottom">
+                <nav class="header__navigation">
+                    <div class="header__menu-wrap js-menu-wrap">
+                        <ul class="header__menu reset-list">
+                            <li class="header__menu-item"><a class="header__menu-link" href="#">Главная</a></li>
+                            <li class="header__menu-item"><a class="header__menu-link" href="#useful">Кому полезно</a>
+                            </li>
+                            <li class="header__menu-item"><a class="header__menu-link" href="#info">Знания</a></li>
+                            <li class="header__menu-item"><a class="header__menu-link" href="#bonus">Бонус</a></li>
+                            <li class="header__menu-item"><a class="header__menu-link" href="#speaker">Спикер</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <div class="hero__content">
+                    <h2 class="hero__heading">Как стать востребованным
+                        нутрициологом и иметь прибыль от 3.000$ в месяц</h2>
+                    <ul class="hero__list reset-list">
+                        <li class="hero__list-item">Без медицинских знаний</li>
+                        <li class="hero__list-item">С очередью клиентов от нас</li>
+                        <li class="hero__list-item">С Европейским дипломом MBA</li>
+                    </ul>
+                    <button class="hero__button reset-btn button" type="button">Бесплатная регистрация</button>
+                </div>
+                <div class="hero__image-wrap">
+                    <img class="hero__image" src="img/woman.webp" alt="Женщина в костюме" width="479" height="616">
+                    <img class="hero__image hero-image-two" src="img/woman-1.webp" alt="Женщина в костюме" width="219"
+                        height="308">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="timer">
+        <div class="timer__container container">
+            <div class="timer__content">
+                <div class="timer__text">До начала<span class="timer__text-sign">:</span>
+                    <span class="timer__text-extra">мастер-класса:</span><br>
+                    <div class="timer__text-wrap" id="countdown"></div>
+                    <div class="timer__wrapper">
+                        <span class="timer__inscription">Часов</span>
+                        <span class="timer__inscription">Минут</span>
+                        <span class="timer__inscription">Секунд</span>
+                    </div>
+                </div>
+                <h2 class="timer__heading">Станьте практикующим нутрициологом и мы
+                    обеспечим вас потоком клиентов которые смогут
+                    принести вам от 3.000$ в месяц за ваши консультации</h2>
+                <button class="timer__button reset-btn button" type="button">Бесплатная регистрация</button>
+            </div>
+        </div>
+    </section>
+    <section class="useful" id="useful">
+        <div class="useful__container container">
+            <h2 class="useful__heading">ЭТОТ МАСТЕР-КЛАСС МОЖЕТ БЫТЬ ПОЛЕЗЕН ТЕМ КТО:</h2>
+            <ul class="useful__list reset-list">
+                <li class="useful__list-item"><span class="useful__list-decoration">01</span>Хочет найти профессию
+                    которая позволит иметь прибыль из любой точки мира от 100$ /час</li>
+                <li class="useful__list-item"><span class="useful__list-decoration decoration-two">02</span>Еще не нашел
+                    себя и хочет самореализоваться и помогать людям</li>
+                <li class="useful__list-item"><span class="useful__list-decoration decoration-three">03</span>Устал
+                    ходить по врачам и принимать таблетки, а хочет здоровья себе и своей
+                    семье</li>
+                <li class="useful__list-item"><span class="useful__list-decoration decoration-four">04</span>Устал от
+                    офисной работы и хочет проводить больше времени с семьей и иметь
+                    хорошие деньги</li>
+                <li class="useful__list-item"><span class="useful__list-decoration decoration-five">05</span>Является
+                    практикующим нутрициологом, тренером, врачом и хочет более
+                    качественно помогать людям доводя их до крутых результатов</li>
+            </ul>
+        </div>
+    </section>
+    <section class="bonus" id="bonus">
+        <div class="bonus__container container">
+            <div class="bonus__content">
+                <h3 class="bonus__heading">БОНУС ПОСЛЕ РЕГИСТРАЦИИ</h3>
+                <p class="bonus__text">«Методичка по продуктам» - Рекомендации по питанию и работающие лайфхаки</p>
+                <img class="bonus__image" src="img/bonus.webp" alt="Шахматная доска" width="1020" height="283">
+                <img class="bonus__image-small" src="img/chess-small.webp" alt="Шахматная доска" width="342"
+                    height="306">
+                <p class="bonus__list-title">Может стать главным пособием по правильному питанию и выбору продуктов
+                    для всей семьи и ответит на вопросы:</p>
+                <ul class="bonus__list">
+                    <li class="bonus__list-item">Как полезный продукт может стать опасным для здоровья?</li>
+                    <li class="bonus__list-item">Может ли обычная вода принести вред?</li>
+                    <li class="bonus__list-item">Как определить качество круп, чтобы при варке они не превратились в
+                        массу бесполезных углеводов высокой калорийности?</li>
+                    <li class="bonus__list-item">Как определить наличие скрытого сахара в составе?</li>
+                    <li class="bonus__list-item">Как выбирать овощи и фрукты и зачем обращать внимание на их цвет?</li>
+                </ul>
+                <button class="bonus__button reset-btn button-two" type="button">Бесплатная регистрация</button>
+            </div>
+        </div>
+    </section>
+    <section class="information" id="info">
+        <div class="information__container container">
+            <h2 class="information__heading">ВСЕГО ЗА ЧАС МЫ УЗНАЕМ:</h2>
+            <div class="information__content">
+                <img class="information__scale" src="img/scale.webp" alt="Шкала от 1 до 4" width="1160" height="245">
+                <img class="information__scale-vertical" src="img/scale-vertical.webp" alt="Шкала от 1 до 4" width="129"
+                    height="849">
+                <div class="information__wrap">
+                    <h2 class="information__heading title">ВСЕГО ЗА ЧАС МЫ УЗНАЕМ:</h2>
+                    <p class="information__text text-one">Кто такой нутрициолог или «Как стать человеком которому многие
+                        обязаны
+                        жизнью»
+                    </p>
+                    <p class="information__text text-two">Как получить профессию нутрициолога и создать частную практику
+                        с прибылью
+                        от 3.000$ /мес</p>
+                    <p class="information__text text-three">Как всего за 4 мес стать востребованным специалистом и
+                        самореализоваться
+                        занимаясь любимым делом из любой точки мира</p>
+                    <p class="information__text text-four">Как научиться составлять индивидуальные программы и
+                        персонализированное
+                        питание
+                        на основе симптомов и анализов</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bonus-second">
+        <div class="bonus-second__container container">
+            <div class="bonus-second__content">
+                <h3 class="bonus-second__heading">БОНУС ПОСЛЕ РЕГИСТРАЦИИ</h3>
+                <p class="bonus-second__text">«Методичка по продуктам» - Рекомендации по питанию и работающие лайфхаки
+                </p>
+                <img class="bonus-second__image" src="img/bonus.webp" alt="Шахматная доска" width="1020" height="283">
+                <img class="bonus-second__image-small" src="img/chess-small.webp" alt="Шахматная доска" width="342"
+                    height="306">
+                <p class="bonus-second__list-title">Может стать главным пособием по правильному питанию и выбору
+                    продуктов
+                    для всей семьи и ответит на вопросы:</p>
+                <ul class="bonus-second__list">
+                    <li class="bonus-second__list-item">Как полезный продукт может стать опасным для здоровья?</li>
+                    <li class="bonus-second__list-item">Может ли обычная вода принести вред?</li>
+                    <li class="bonus-second__list-item">Как определить качество круп, чтобы при варке они не
+                        превратились в
+                        массу бесполезных углеводов высокой калорийности?</li>
+                    <li class="bonus-second__list-item">Как определить наличие скрытого сахара в составе?</li>
+                    <li class="bonus-second__list-item">Как выбирать овощи и фрукты и зачем обращать внимание на их
+                        цвет?</li>
+                </ul>
+                <button class="bonus-second__button reset-btn button" type="button">Бесплатная регистрация</button>
+            </div>
+        </div>
+    </section>
+    <section class="speaker" id="speaker">
+        <div class="speaker__container container">
+            <div class="speaker__content-top">
+                <h3 class="speaker__name">Татьяна Забалуева</h3>
+                <span class="speaker__info">Спикер Мастер-класса</span>
+                <ul class="speaker__list reset-list">
+                    <li class="speaker__list-item"><span class="speaker__number">01</span>Ведущий преподаватель открытой
+                        Европейской академии на кафедре нутрициологии</li>
+                    <li class="speaker__list-item item"><span class="speaker__number number">02</span>Автор технологии
+                        коррекции и
+                        удержания веса без подсчета калорий, спорта и моно диет с авторскими правами на 167 стран</li>
+                    <li class="speaker__list-item item"><span class="speaker__number number">03</span>Практикующий
+                        нутрициолог и
+                        специалист по коррекции веса с 6 летним опытом и 30.000 подопечных</li>
+                </ul>
+                <img class="speaker__image" src="img/woman-2.webp" alt="Женщина в жилетке" width="665" height="740">
+                <img class="speaker__image image-two" src="img/woman-2-no-shadow.webp" alt="Женщина в жилетке"
+                    width="317" height="403">
+            </div>
+            <div class="speaker__content-bottom">
+                <p class="speaker__text">РЕГИСТРИРУЙТЕСЬ, ЗАБИРАЙТЕ ПОДАРКИ
+                    И НАЧИНАЙТЕ СВОЙ ПУТЬ К ОДНОЙ ИЗ САМЫХ ВОСТРЕБОВАННЫХ ПРОФЕССИИ
+                    С ПРИБЫЛЬЮ ОТ 3.000$</p>
+                <button class="speaker__button reset-btn button-two" type="button">Бесплатная регистрация</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__content-top">
+                <a href="#" class="footer__logo">
+                    <img class="footer__image" src="img/logo-footer.svg" alt="NAN logo" width="160" height="60">
+                    <img class="footer__image-big" src="img/logo-big.svg" alt="NAN logo" width="187" height="228">
+                </a>
+                <ul class="footer__socials reset-list">
+                    <li class="footer__social">
+                        <a href="#" class="footer__social-link">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 13.9535C0 6.24719 6.24719 0 13.9535 0H36.0465C43.7528 0 50 6.24719 50 13.9535V36.0465C50 43.7528 43.7528 50 36.0465 50H13.9535C6.24719 50 0 43.7528 0 36.0465V13.9535Z"
+                                    fill="white" />
+                                <path
+                                    d="M0.5 13.9535C0.5 6.52333 6.52333 0.5 13.9535 0.5H36.0465C43.4767 0.5 49.5 6.52333 49.5 13.9535V36.0465C49.5 43.4767 43.4767 49.5 36.0465 49.5H13.9535C6.52333 49.5 0.5 43.4767 0.5 36.0465V13.9535Z"
+                                    stroke="white" stroke-opacity="0.3" />
+                                <path
+                                    d="M25.5854 28.1418C26.3587 28.6865 27.1695 29.1446 28.0052 29.4913C28.5241 29.6794 29.3384 29.1465 29.9371 28.7547C30.0867 28.6568 30.2229 28.5677 30.3377 28.5008L30.3753 28.4797C30.9393 28.163 31.5655 27.8113 32.3708 27.9808C33.0942 28.1294 35.5764 30.0855 36.2624 30.7788C36.7114 31.2245 36.9609 31.695 36.9983 32.1778C37.0731 33.973 34.6658 35.991 34.0921 36.3376C32.8697 37.229 31.2357 37.2166 29.265 36.3252C27.157 35.471 24.6374 33.6758 22.2052 31.4969C21.3345 30.7169 19.6625 29.0746 19.1867 28.5262C16.7295 25.8644 14.6589 23.0045 13.686 20.6894C13.2245 19.7113 13 18.8075 13 18.0028C13 17.2105 13.2245 16.5048 13.6611 15.8981C13.923 15.4401 16.031 12.9392 17.8895 13.0011C18.351 13.0507 18.8249 13.2859 19.2864 13.7316C19.9849 14.4125 21.9931 16.8762 22.1428 17.6066C22.3136 18.3936 21.9595 19.0148 21.6404 19.5745L21.6189 19.6123C21.547 19.7365 21.4495 19.8839 21.343 20.045C20.9504 20.6385 20.4344 21.4184 20.6198 21.915C21.0826 23.054 21.7437 24.1683 22.5407 25.1958C23.4252 26.2534 24.8121 27.597 25.5854 28.1418Z"
+                                    fill="#6EAB30" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer__social">
+                        <a href="#" class="footer__social-link">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 13.9535C0 6.24719 6.24719 0 13.9535 0H36.0465C43.7528 0 50 6.24719 50 13.9535V36.0465C50 43.7528 43.7528 50 36.0465 50H13.9535C6.24719 50 0 43.7528 0 36.0465V13.9535Z"
+                                    fill="white" />
+                                <path
+                                    d="M0.5 13.9535C0.5 6.52333 6.52333 0.5 13.9535 0.5H36.0465C43.4767 0.5 49.5 6.52333 49.5 13.9535V36.0465C49.5 43.4767 43.4767 49.5 36.0465 49.5H13.9535C6.52333 49.5 0.5 43.4767 0.5 36.0465V13.9535Z"
+                                    stroke="white" stroke-opacity="0.3" />
+                                <rect x="13" y="14" width="24" height="22" rx="11" fill="#C0E969" fill-opacity="0.25" />
+                                <path
+                                    d="M25 36C15.118 36 13 34.0585 13 25C13 22.5104 13.16 20.5584 13.5972 19.0365C14.7165 20.1587 16.1291 21.5082 17.6633 22.7103C19.8392 24.4151 22.4745 26 25 26C27.5255 26 30.1608 24.4151 32.3367 22.7103C33.8709 21.5082 35.2835 20.1587 36.4028 19.0365C36.84 20.5584 37 22.5104 37 25C37 34.0585 34.882 36 25 36Z"
+                                    fill="#6EAB30" />
+                                <path
+                                    d="M35.5313 17.0731C34.3596 18.2673 32.8054 19.8023 31.1033 21.1359C28.9592 22.8157 26.7945 24 25 24C23.2055 24 21.0408 22.8157 18.8967 21.1359C17.1946 19.8023 15.6404 18.2673 14.4687 17.0731C16.0569 14.6726 19.1836 14 25 14C30.8164 14 33.9431 14.6726 35.5313 17.0731Z"
+                                    fill="#6EAB30" />
+                            </svg>
+
+                        </a>
+                    </li>
+                    <li class="footer__social">
+                        <a href="#" class="footer__social-link">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 13.9535C0 6.24719 6.24719 0 13.9535 0H36.0465C43.7528 0 50 6.24719 50 13.9535V36.0465C50 43.7528 43.7528 50 36.0465 50H13.9535C6.24719 50 0 43.7528 0 36.0465V13.9535Z"
+                                    fill="white" />
+                                <path
+                                    d="M0.5 13.9535C0.5 6.52333 6.52333 0.5 13.9535 0.5H36.0465C43.4767 0.5 49.5 6.52333 49.5 13.9535V36.0465C49.5 43.4767 43.4767 49.5 36.0465 49.5H13.9535C6.52333 49.5 0.5 43.4767 0.5 36.0465V13.9535Z"
+                                    stroke="white" stroke-opacity="0.3" />
+                                <path
+                                    d="M35.8823 14.1509C36.6339 14.9147 36.8587 15.9775 36.9439 16.7495C37.0389 17.6112 37.0062 18.5997 36.8985 19.6176C36.6817 21.6644 36.1308 24.1043 35.3931 26.4528C34.6565 28.7982 33.7032 31.1495 32.6401 32.996C32.1104 33.9161 31.5173 34.7744 30.8639 35.4514C30.2396 36.0983 29.3784 36.7693 28.2933 36.9523L28.2874 36.9533C28.0831 36.987 27.8841 36.9946 27.8139 36.9972L27.8005 36.9977C27.0919 37.0265 26.4801 36.7766 26.0624 36.5523C25.6158 36.3124 25.1968 35.9958 24.8231 35.6638C24.074 34.9982 23.3439 34.1248 22.7498 33.2138C22.4243 32.7147 22.1159 32.168 21.8638 31.6021C21.4899 30.7627 21.7182 29.809 22.2837 29.084L25.7151 25.0408C25.8908 24.8338 25.878 24.5272 25.6857 24.3355C25.4934 24.1437 25.1858 24.131 24.9782 24.3061L20.923 27.7273C20.15 28.3267 19.1277 28.5589 18.2437 28.139C17.6785 27.8705 17.1335 27.5469 16.6356 27.2045C15.6955 26.558 14.7947 25.7559 14.1342 24.9198C13.8046 24.5026 13.4932 24.0248 13.2812 23.5079C13.0762 23.0084 12.8993 22.3124 13.0664 21.5511L13.0667 21.5498C13.295 20.5102 13.9794 19.687 14.6281 19.0875C15.3111 18.4561 16.17 17.8765 17.0921 17.3542C18.9424 16.3061 21.2854 15.3556 23.6219 14.6172C25.9595 13.8785 28.3855 13.3219 30.4203 13.1028C31.4318 12.9938 32.4175 12.9601 33.2786 13.0576C34.0518 13.1451 35.1213 13.3775 35.8823 14.1509Z"
+                                    fill="#6EAB30" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__content-middle">
+                <div class="footer__content-wrap">
+                    <p class="footer__text">Произведение науки: Технология похудения
+                        <br>Похудение путем здорового и правильного питания
+                        <br>№ EC-01-001713.
+                    </p>
+                    <a class="footer__policy" href="https://tanya-change.online/police">Политика конфиденциальности</a>
+                </div>
+                <p class="footer__contacts"><span>Телефон:</span> <a href="tel:+17274150107"><b>+17274150107</b></a><br>
+                    <span>Email: </span><a href="mailto:support@tanya-change.org"><b>support@tanya-change.org</b></a>
+                    <span>Telegram:</span><a href="https://web.telegram.org"><b>@tanya_change_bot</b></a>
+                    <br><b>TANYA CHANGE L.L.C.628 Cleveland st. unt 3, <br>Clearwater, Florida, USA 33755</b>
+                </p>
+            </div>
+            <div class="footer__content-bottom">
+                <p class="footer__copyright">Copyright 2023 TANYA CHANGE L.L.C</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

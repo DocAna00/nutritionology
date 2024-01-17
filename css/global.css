@@ -1,0 +1,96 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  min-width: 430px;
+  font-family: "HeliosC", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+}
+
+.reset-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.reset-btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1920px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 380px;
+  padding-left: 380px;
+}
+
+.button {
+  position: relative;
+  z-index: 1;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+  opacity: 0;
+  background: linear-gradient(90deg, #80a73e 105.82%, #7fa53d 105.83%, #283816 245.39%);
+  transition: all .5s;
+}
+
+.button:hover::before {
+  opacity: 1;
+}
+
+.button-two {
+  position: relative;
+  z-index: 1;
+}
+
+.button-two::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+  opacity: 0;
+  background: radial-gradient(50% 50% at 50% 50%, #ffffff 0%, #e1d9ce 100%, #e1d9ce 100%), linear-gradient(90deg, #80a73e 105.82%, #7fa53d 105.83%, #283816 245.39%), #ffffff;
+  transition: all .5s;
+}
+
+.button-two:hover::before {
+  opacity: 1;
+}

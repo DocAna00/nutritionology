@@ -1,0 +1,79 @@
+.hero {
+  position: relative;
+  padding-top: 139px;
+  padding-bottom: 134.5px;
+}
+
+.hero__container {
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: .02;
+  background-image: url("../img/background.webp");
+}
+
+.hero__heading {
+  max-width: 688px;
+  margin-top: 0;
+  margin-bottom: 19px;
+  font-size: 48px;
+  font-weight: 700;
+  color: transparent;
+  letter-spacing: 1.3px;
+  background-image: linear-gradient(90deg, #80a73e 4%, #283816 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.hero__list {
+  margin-bottom: 28px;
+}
+
+.hero__list-item::before {
+  content: url("../img/green-round.svg");
+  flex-shrink: 0;
+  margin-right: 16px;
+}
+
+.hero__list-item {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  color: #314419;
+}
+
+.hero__list-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.hero__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: 100px;
+  color: #ffffff;
+  background: linear-gradient(90deg, #80a73e 4%, #283816 100%), #ffffff;
+
+  gap: 10px;
+}
+
+.hero__image {
+  position: absolute;
+  top: -139px;
+  right: 263px;
+  width: 680px;
+  height: 659px;
+}
+
+.hero-image-two {
+  display: none;
+}
